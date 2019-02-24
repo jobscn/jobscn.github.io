@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jobscn.github.io/category/index.html</loc>
+    <loc>https://jobscn.github.io/tags/index.html</loc>
     
-    <lastmod>2019-02-24T08:33:38.735Z</lastmod>
+    <lastmod>2019-02-24T08:37:03.749Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-02-24T08:36:32.860Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html</loc>
     
     <lastmod>2019-02-24T08:25:54.502Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jobscn.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-02-24T07:53:30.538Z</lastmod>
     
   </url>
   
