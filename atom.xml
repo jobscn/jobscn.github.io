@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jobscn&#39;s personal blog</title>
+  <title>Jobscn&#39;s blog</title>
   
-  
+  <subtitle>Jobscn&#39;s blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://jobscn.github.io/"/>
+  <link href="https://jobscn.github.io/"/>
   <updated>2019-02-24T04:49:40.530Z</updated>
-  <id>http://jobscn.github.io/</id>
+  <id>https://jobscn.github.io/</id>
   
   <author>
     <name>zq Lin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://jobscn.github.io/%5Bobject%20Object%5D/hello-world/"/>
-    <id>http://jobscn.github.io/[object Object]/hello-world/</id>
+    <link href="https://jobscn.github.io/%5Bobject%20Object%5D/hello-world/"/>
+    <id>https://jobscn.github.io/[object Object]/hello-world/</id>
     <published>2019-02-24T04:49:40.530Z</published>
     <updated>2019-02-24T04:49:40.530Z</updated>
     
