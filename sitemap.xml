@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jobscn.github.io/dbms/database-indexing.html</loc>
+    
+    <lastmod>2019-03-05T14:41:24.571Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html</loc>
     
     <lastmod>2019-03-05T14:12:19.582Z</lastmod>
