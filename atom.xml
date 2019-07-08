@@ -47,6 +47,37 @@
   </entry>
   
   <entry>
+    <title>【HTTP】使用telnet进行HTTP实验</title>
+    <link href="https://jobscn.github.io/network/http-test-telnet.html"/>
+    <id>https://jobscn.github.io/network/http-test-telnet.html</id>
+    <published>2019-01-24T05:57:00.000Z</published>
+    <updated>2019-07-08T02:35:44.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>telnet是建立TCP连接的一种手段，我们可以用来测试HTTP报文。</p><h2 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h2><blockquote><p>telnet <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> 80</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GET / HTTP/1.1</span><br><span class="line">Host: baidu.com</span><br></pre></td></tr></table></figure><p>即可收到报文响应</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML ...--&gt;</span><br></pre></td></tr></table></figure><h2 id="尝试对报文使用内容编码"><a href="#尝试对报文使用内容编码" class="headerlink" title="尝试对报文使用内容编码"></a>尝试对报文使用内容编码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GET / HTTP/1.1</span><br><span class="line">Host: baidu.com</span><br><span class="line">Accept-Encoding: gzip</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">HTTP/1.1 200 OK</span><br><span class="line">Bdpagetype: 1</span><br><span class="line">Bdqid: 0xd80316f4000ab7de</span><br><span class="line">Cache-Control: private</span><br><span class="line">Connection: Keep-Alive</span><br><span class="line">Content-Encoding: gzip</span><br><span class="line">Content-Type: text/html</span><br><span class="line">Transfer-Encoding: chunked</span><br><span class="line">...省略若干字段</span><br><span class="line"></span><br><span class="line">...省略被编码的主体</span><br></pre></td></tr></table></figure><p>可以看到，主体已经成功的进行了内容编码，响应报文中指定为gzip，并且采用了分块传输编码chunked。</p><blockquote><p>经过尝试的同学应该发现，telnet在得到响应后，并没有断开连接，依然在等待输入状态，这时候若直接敲击2下回车，会得到<code>400 bad request</code>响应。这时因为，HTTP/1.1默认使用了长连接(Connection: keep-alive)，因此在一个请求结束时，并不会断开TCP连接，并且继续等待下一个请求的到来，直到得到<code>Connection: close</code>或心跳失败后断开连接。</p></blockquote><h2 id="单独进行chunked的效果"><a href="#单独进行chunked的效果" class="headerlink" title="单独进行chunked的效果"></a>单独进行chunked的效果</h2><p>通常，采用内容编码后，会结合chunked进行再分块，因此在这里无法单独对百度页面测试chunked编码。</p><p>chunked常使用在动态页面解析技术驱动的页面下，因为动态解析的页面往往无法确定最终的长度。</p><p>由于支持HTTP/1.1的接收方，一定支持chunked编码，不需要特意指定Te: chunked</p><p>可以尝试GET以下资源</p><blockquote><p><a href="http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx" target="_blank" rel="noopener">http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx</a></p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GET /httpgallery/chunked/chunkedimage.aspx HTTP/1.1</span><br><span class="line">Host: www.httpwatch.com</span><br></pre></td></tr></table></figure><p>该资源使用chunked传输编码，收到的报文主体类似<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">400</span><br><span class="line">xxxxx...(400字节)</span><br><span class="line">30</span><br><span class="line">xxxx...(30字节)</span><br><span class="line">0(结束)</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;telnet是建立TCP连接的一种手段，我们可以用来测试HTTP报文。&lt;/p&gt;
+&lt;h2 id=&quot;简单示例&quot;&gt;&lt;a href=&quot;#简单示例&quot; class=&quot;headerlink&quot; title=&quot;简单示例&quot;&gt;&lt;/a&gt;简单示例&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;telnet
+      
+    
+    </summary>
+    
+      <category term="network" scheme="https://jobscn.github.io/categories/network/"/>
+    
+    
+      <category term="HTTP" scheme="https://jobscn.github.io/tags/HTTP/"/>
+    
+      <category term="telnet" scheme="https://jobscn.github.io/tags/telnet/"/>
+    
+      <category term="chunked" scheme="https://jobscn.github.io/tags/chunked/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【C++】【STL】迭代器(iterator)篇之traits技术详解</title>
     <link href="https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html"/>
     <id>https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html</id>
