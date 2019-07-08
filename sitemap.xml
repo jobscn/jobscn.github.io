@@ -2,16 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jobscn.github.io/network/http/http-head-connection.html</loc>
+    <loc>https://jobscn.github.io/cpp/cpp-template-question.html</loc>
     
-    <lastmod>2019-07-08T02:51:27.230Z</lastmod>
+    <lastmod>2019-07-08T03:55:02.747Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/network-cache-rules.html</loc>
+    
+    <lastmod>2019-07-08T03:49:41.096Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/network-diff-ssl-tls.html</loc>
+    
+    <lastmod>2019-07-08T03:46:03.592Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-operator-question.html</loc>
+    
+    <lastmod>2019-07-08T03:42:16.303Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-leftNrightIncrement.html</loc>
+    
+    <lastmod>2019-07-08T03:40:35.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/dbms/database-indexing.html</loc>
+    
+    <lastmod>2019-07-08T03:39:06.526Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html</loc>
+    
+    <lastmod>2019-07-08T03:39:00.168Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-std-move.html</loc>
+    
+    <lastmod>2019-07-08T03:38:56.912Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-advance-next-prev.html</loc>
+    
+    <lastmod>2019-07-08T03:38:54.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-explict.html</loc>
+    
+    <lastmod>2019-07-08T03:38:50.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-template-special.html</loc>
+    
+    <lastmod>2019-07-08T03:33:20.891Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-va-list.html</loc>
+    
+    <lastmod>2019-07-08T03:32:41.877Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-virtual-inherit.html</loc>
+    
+    <lastmod>2019-07-08T03:31:06.145Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-operator-reload.html</loc>
+    
+    <lastmod>2019-07-08T03:29:17.142Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-cas.html</loc>
+    
+    <lastmod>2019-07-08T03:27:22.132Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/cpp/cpp-shared-ptr.html</loc>
+    
+    <lastmod>2019-07-08T03:25:26.216Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/%E9%9F%B3%E8%A7%86%E9%A2%91%E6%8A%80%E6%9C%AF/ffmpeg/av-ffmpeg-base.html</loc>
+    
+    <lastmod>2019-07-08T03:22:21.375Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/%E9%9F%B3%E8%A7%86%E9%A2%91%E6%8A%80%E6%9C%AF/av-base.html</loc>
+    
+    <lastmod>2019-07-08T03:22:19.144Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/linux/linux-malloc.html</loc>
+    
+    <lastmod>2019-07-08T03:17:43.400Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/linux/linux-raid.html</loc>
+    
+    <lastmod>2019-07-08T03:15:49.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/linux/linux-link.html</loc>
+    
+    <lastmod>2019-07-08T03:07:01.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/linux/linux-core-base.html</loc>
+    
+    <lastmod>2019-07-08T03:04:53.960Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://jobscn.github.io/network/http/header/http-head-via.html</loc>
     
-    <lastmod>2019-07-08T02:51:25.670Z</lastmod>
+    <lastmod>2019-07-08T02:59:25.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/http-head-connection.html</loc>
+    
+    <lastmod>2019-07-08T02:56:51.202Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/tcp-ip/network-congestion-control.html</loc>
+    
+    <lastmod>2019-07-08T02:54:36.863Z</lastmod>
     
   </url>
   
@@ -54,20 +215,6 @@
     <loc>https://jobscn.github.io/network/http/http-test-telnet.html</loc>
     
     <lastmod>2019-07-08T02:37:23.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jobscn.github.io/dbms/database-indexing.html</loc>
-    
-    <lastmod>2019-06-06T06:33:05.060Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jobscn.github.io/cpp/stl/iterator/stl-iterator-traits.html</loc>
-    
-    <lastmod>2019-03-05T14:12:19.582Z</lastmod>
     
   </url>
   
