@@ -2,9 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jobscn.github.io/network/http-test-telnet.html</loc>
+    <loc>https://jobscn.github.io/network/http/http-head-connection.html</loc>
     
-    <lastmod>2019-07-08T02:35:44.538Z</lastmod>
+    <lastmod>2019-07-08T02:51:27.230Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/header/http-head-via.html</loc>
+    
+    <lastmod>2019-07-08T02:51:25.670Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/http-ssl.html</loc>
+    
+    <lastmod>2019-07-08T02:50:33.004Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/header/http-head-cookie.html</loc>
+    
+    <lastmod>2019-07-08T02:47:16.888Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/header/http-head-body.html</loc>
+    
+    <lastmod>2019-07-08T02:45:41.891Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/header/http-head-response.html</loc>
+    
+    <lastmod>2019-07-08T02:45:36.547Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/header/http-head-request.html</loc>
+    
+    <lastmod>2019-07-08T02:45:30.115Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jobscn.github.io/network/http/http-test-telnet.html</loc>
+    
+    <lastmod>2019-07-08T02:37:23.246Z</lastmod>
     
   </url>
   
