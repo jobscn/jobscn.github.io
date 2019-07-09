@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jobscn.github.io/golang/golang-grpc-demo.html</loc>
+    
+    <lastmod>2019-07-09T03:49:29.727Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jobscn.github.io/%E9%9F%B3%E8%A7%86%E9%A2%91%E6%8A%80%E6%9C%AF/ffmpeg/av-ffmpeg-base.html</loc>
     
     <lastmod>2019-07-08T04:14:52.453Z</lastmod>
